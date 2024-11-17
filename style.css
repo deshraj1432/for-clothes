@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, 
+body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 99vw;
+    background-color:khaki ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+nav i{
+    margin: 5px;
+    color: darkgrey;
+}
+.page1-content{
+    height: 91%;
+    width: 100%;
+    background-image: url(banner-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding: 5% 10%;
+}
+ .text h5 {
+ color: #ee1c47;
+ font-size: 16px;
+ text-transform: capitalize;
+}
+.text h1{
+     color: black;
+     font-size: 65px;
+     text-transform: capitalize;
+     line-height: 1.1;
+     font-weight: 600;
+     margin: 6px 0 10px;
+}
+.text p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.text-button{
+    display: inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    transition: all .25 ease;
+    text-decoration: none;
+}
+.text-botton:hover{
+    background-color:#000;
+    color: #fff;
+
+}
+.page2, .page3{
+    height: 110vh;
+    width: 100%;
+    /* overflow: -moz-hidden-unscrollable; */
+    text-align: center;
+    /* line-height: 30px; */
+}
+.page2 h1, .page3 h1 {
+
+   text-align: center;
+   border: 2px solid rgb(239, 233, 233);
+   /* background-color:black; */
+   color: white;
+   text-shadow: 0px 0px 10px cyan,
+                0px 0px 20px cyan,
+                0px 0px 40px cyan,
+                0px 0px 80px cyan;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 250px));
+    /* gap: 0.5rem; */
+}
+.row{
+    position: relative;
+    transition: all .40s;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.row img{
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+    /* margin-left: ; */
+    transition: all 1.40s;
+    background-size: cover;
+    /* background-color: #333c56; */
+}
+.row img:hover{
+    scale: 1.2;
+}
+.ratting i {
+  background-color: yellow;
+}
+
